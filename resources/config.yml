@@ -1,0 +1,31 @@
+#DO NOT TOUCH ! FOR INTERNAL USE ONLY
+version: 1.0
+
+#This defines the max number of explosions an obsidian can get.
+#If you don't want this feature, put this to -1
+obsidian-durability: 4
+
+#This says if the obsidian drops when its exploded.
+#Enabled = true - Disabled = false
+obsidian-drop: true
+
+#This allows to define an item to see how much durability an obsidian has left
+#To disable this, put an empty string ('')
+#Format is ITEM_ID:ITEM_META
+#Note: If the item has durability, it WILL lose 1 durability.
+durability-wand: "record_ward"
+
+#Now this is the message that the player will receive when the durability wand is used
+#Only works if the durability wand is enabled
+#Placeholders: {durability} to show the durability left
+durability-message: "§7[§8!§7] §fThere is §9{durability} §fof Durability left on this Obsidian"
+
+#This allows to define an item to instantly remove an obsidian block
+#To disable this, put an empty string ('')
+#Format is ITEM_ID:ITEM_META
+#Note: If the item has durability, it WILL lose 1 durability.
+magical-wand: "blaze_rod"
+
+#Now this says if using the magical wand on obsidian will drop the obsidian
+#Enabled = true - Disabled = false
+wand-drop: false

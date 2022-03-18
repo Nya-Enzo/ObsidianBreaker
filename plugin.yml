@@ -1,0 +1,6 @@
+name: ObsidianBreaker
+description: Break bedrock with TNT !
+author: Enzo.
+version: 1.0
+main: Enzo\ObsidianBreaker\ObsidianBreaker
+api: 4.2.0
